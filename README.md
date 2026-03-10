@@ -24,16 +24,13 @@ It exposes a REST API that accepts loan details, validates the request using **J
 
   `EMI = P * r * (1 + r)^n / ((1 + r)^n - 1)`
 
-  Where:
-  - `P` = principal (loan value)
-  - `r` = monthly interest rate
-  - `n` = number of monthly installments
 
 - Returns clear validation error messages in a consistent JSON format:
   - `message`: high-level error summary
   - `fieldErrors`: per-field validation messages
 - Provides a RESTful API endpoint following clean coding and backend best practices.
-
+## Clone repo using below URL:
+https://github.com/iragond/emiCalculatorApplication.git
 ## Running the Project
 
 ### Build
