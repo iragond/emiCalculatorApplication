@@ -1,4 +1,4 @@
-package com.emiCalculator.emiCalculatorController;
+package com.emiCalculator.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

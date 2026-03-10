@@ -1,9 +1,7 @@
 package com.emiCalculator.model;
 
 @lombok.AllArgsConstructor
-@lombok.Builder
-@lombok.Getter
-@lombok.Setter
+@lombok.Data
 public class EmiResponse {
     private Double emiAmount;
     private String message;
